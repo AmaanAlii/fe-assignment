@@ -1,0 +1,96 @@
+.product-main-section {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-sub-section {
+  display: flex;
+  flex-direction: column;
+
+  justify-self: center;
+  width: 90%;
+}
+
+.product-heading-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-heading-section > h1 {
+  color: var(--Grey-scale-1000, #000);
+
+  /* H2 title */
+  font-family: Syne;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.product-heading-button-section {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+}
+
+.product-heading-button-section > button {
+  background-color: #fff;
+  border: none;
+}
+
+.product-main-section {
+  display: flex;
+  align-items: flex-start;
+}
+
+.product-left-menu-section {
+  width: 20%;
+  justify-content: flex-start;
+}
+
+.product-left-menu-section li {
+  list-style: none;
+  text-align: left;
+  color: var(--Grey-scale-1000, #000);
+
+  /* Body text 18 */
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  margin-bottom: 20px;
+
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.product-left-menu-section li.selected {
+  font-family: Syne;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.product-right-display-section {
+  width: 80%;
+}
+
+.product-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  width: 100%;
+
+  gap: 60px;
+
+  overflow-x: scroll;
+  scroll-behavior: smooth; /* Enable smooth scrolling behavior */
+  scroll-snap-type: x mandatory;
+}
